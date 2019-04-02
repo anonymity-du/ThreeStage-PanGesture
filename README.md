@@ -4,4 +4,4 @@
 
 示例
 
-![image](https://github.com/anonymity-du/DoubleSliderView-swift/blob/master/imageFolder/panGesture.gif)
+![image](https://github.com/anonymity-du/ThreeStage-PanGesture/blob/master/imageFolder/panGesture.gif)
