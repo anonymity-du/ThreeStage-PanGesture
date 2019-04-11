@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B95B8E225F3913006E25FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B95B8D225F3913006E25FF /* AppDelegate.m */; };
+		23B95B91225F3913006E25FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B95B90225F3913006E25FF /* ViewController.m */; };
+		23B95B96225F3915006E25FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B95B95225F3915006E25FF /* Assets.xcassets */; };
+		23B95B99225F3915006E25FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B95B97225F3915006E25FF /* LaunchScreen.storyboard */; };
+		23B95B9C225F3915006E25FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B95B9B225F3915006E25FF /* main.m */; };
+		23B95BA4225F3BD5006E25FF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B95BA2225F3BD5006E25FF /* UIView+Extension.m */; };
+		23B95BA7225F3E10006E25FF /* GenericPanGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B95BA6225F3E10006E25FF /* GenericPanGestureHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B95B89225F3913006E25FF /* threeStagePanGesture-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "threeStagePanGesture-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B95B8C225F3913006E25FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23B95B8D225F3913006E25FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23B95B8F225F3913006E25FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23B95B90225F3913006E25FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23B95B95225F3915006E25FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23B95B98225F3915006E25FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23B95B9A225F3915006E25FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B95B9B225F3915006E25FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23B95BA2225F3BD5006E25FF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		23B95BA3225F3BD5006E25FF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		23B95BA5225F3E10006E25FF /* GenericPanGestureHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericPanGestureHandler.h; sourceTree = "<group>"; };
+		23B95BA6225F3E10006E25FF /* GenericPanGestureHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericPanGestureHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B95B86225F3913006E25FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B95B80225F3913006E25FF = {
+			isa = PBXGroup;
+			children = (
+				23B95B8B225F3913006E25FF /* threeStagePanGesture-OC */,
+				23B95B8A225F3913006E25FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B95B8A225F3913006E25FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B95B89225F3913006E25FF /* threeStagePanGesture-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B95B8B225F3913006E25FF /* threeStagePanGesture-OC */ = {
+			isa = PBXGroup;
+			children = (
+				23B95B8C225F3913006E25FF /* AppDelegate.h */,
+				23B95B8D225F3913006E25FF /* AppDelegate.m */,
+				23B95B8F225F3913006E25FF /* ViewController.h */,
+				23B95B90225F3913006E25FF /* ViewController.m */,
+				23B95BA3225F3BD5006E25FF /* UIView+Extension.h */,
+				23B95BA2225F3BD5006E25FF /* UIView+Extension.m */,
+				23B95BA5225F3E10006E25FF /* GenericPanGestureHandler.h */,
+				23B95BA6225F3E10006E25FF /* GenericPanGestureHandler.m */,
+				23B95B95225F3915006E25FF /* Assets.xcassets */,
+				23B95B97225F3915006E25FF /* LaunchScreen.storyboard */,
+				23B95B9A225F3915006E25FF /* Info.plist */,
+				23B95B9B225F3915006E25FF /* main.m */,
+			);
+			path = "threeStagePanGesture-OC";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B95B88225F3913006E25FF /* threeStagePanGesture-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B95B9F225F3915006E25FF /* Build configuration list for PBXNativeTarget "threeStagePanGesture-OC" */;
+			buildPhases = (
+				23B95B85225F3913006E25FF /* Sources */,
+				23B95B86225F3913006E25FF /* Frameworks */,
+				23B95B87225F3913006E25FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "threeStagePanGesture-OC";
+			productName = "threeStagePanGesture-OC";
+			productReference = 23B95B89225F3913006E25FF /* threeStagePanGesture-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B95B81225F3913006E25FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = du;
+				TargetAttributes = {
+					23B95B88225F3913006E25FF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 23B95B84225F3913006E25FF /* Build configuration list for PBXProject "threeStagePanGesture-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B95B80225F3913006E25FF;
+			productRefGroup = 23B95B8A225F3913006E25FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B95B88225F3913006E25FF /* threeStagePanGesture-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B95B87225F3913006E25FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B95B99225F3915006E25FF /* LaunchScreen.storyboard in Resources */,
+				23B95B96225F3915006E25FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B95B85225F3913006E25FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B95BA7225F3E10006E25FF /* GenericPanGestureHandler.m in Sources */,
+				23B95B91225F3913006E25FF /* ViewController.m in Sources */,
+				23B95B9C225F3915006E25FF /* main.m in Sources */,
+				23B95BA4225F3BD5006E25FF /* UIView+Extension.m in Sources */,
+				23B95B8E225F3913006E25FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23B95B97225F3915006E25FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B95B98225F3915006E25FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B95B9D225F3915006E25FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23B95B9E225F3915006E25FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23B95BA0225F3915006E25FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQR28XF52U;
+				INFOPLIST_FILE = "threeStagePanGesture-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.du.threeStagePanGesture-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23B95BA1225F3915006E25FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQR28XF52U;
+				INFOPLIST_FILE = "threeStagePanGesture-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.du.threeStagePanGesture-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B95B84225F3913006E25FF /* Build configuration list for PBXProject "threeStagePanGesture-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B95B9D225F3915006E25FF /* Debug */,
+				23B95B9E225F3915006E25FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B95B9F225F3915006E25FF /* Build configuration list for PBXNativeTarget "threeStagePanGesture-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B95BA0225F3915006E25FF /* Debug */,
+				23B95BA1225F3915006E25FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B95B81225F3913006E25FF /* Project object */;
+}
